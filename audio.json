@@ -1,0 +1,29 @@
+{
+  "songs": [
+    {
+      "title": "Happy Clappy",
+      "audio": "audio/happy-clappy.mp3",
+      "cover": "photos/happy-clappy.jpg"
+    },
+    {
+      "title": "Mad Hatter",
+      "audio": "audio/mad-hatter.mp3",
+      "cover": "photos/mad-hatter.jpg"
+    },
+    {
+      "title": "Earning Happiness",
+      "audio": "audio/earning-happiness.mp3",
+      "cover": "photos/earning-happiness.jpg"
+    },
+    {
+      "title": "Somewhere Nice",
+      "audio": "audio/somewhere-nice.mp3",
+      "cover": "photos/somewhere-nice.jpg"
+    },
+    {
+      "title": "Deep Space",
+      "audio": "audio/deep-space.mp3",
+      "cover": "photos/deep-space.jpg"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <script defer src="./app.js"></script>
+  <title>Music Player</title>
+</head>
+
+<body>
+  <div class="music__container">
+    <audio id="audio"></audio>
+    <h2 class="music__title">Happy Clappy</h2>
+    <div class="music__img"></div>
+    <div class="music__player">
+      <div class="music__player--progress">
+        <div class="progress"></div>
+      </div>
+      <button id="prev" class="action">
+        <i class="ph-skip-back-circle"></i>
+      </button>
+      <button id="play" class="action">
+        <i class="ph-play-circle"></i>
+      </button>
+      <button id="next" class="action">
+        <i class="ph-skip-forward-circle"></i>
+      </button>
+      <button class="speed"><p>1.0x</p></button>
+    </div>
+  </div>
+
+</body>
+
+</html>
